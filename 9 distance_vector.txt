@@ -59,3 +59,9 @@ d[i][j]=1;
 }
 }
 }
+
+steps to execute
+>gedit distance_vector.c
+#type and save the code
+>gcc distance_vector.c
+>./a.out
