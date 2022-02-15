@@ -85,11 +85,6 @@ $ns at $val(stop) "puts \"done\" ; $ns halt"
 $ns run
 
 
-
-AWK:
-
-
-
 BEGIN{
 count=0;
 total=0;
