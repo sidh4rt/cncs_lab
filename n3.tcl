@@ -79,15 +79,6 @@ $ns at $val(stop) "puts\"done\";$ns halt"
 $ns run
  
 
-
-
-
-
-
-AWK:
-
-
-
 BEGIN{}
 {
 if($6=="cwnd_")
@@ -95,4 +86,11 @@ if($6=="cwnd_")
 printf("%f\t%f\n", $1, $7);}
 }
 END{}
+
+Execution:
+ns n3.tcl n3.tr
+awk -f n3.awk cwnd1.tr>a1
+awk -f n3.awk cwnd2.tr>a2
+xgraph a1 a2
+
 
