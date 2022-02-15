@@ -55,4 +55,11 @@ printf("\t\t%d",mini);
 count=count-mini;
 printf("\t\t%d",count);
 printf("\t\t%d\n",drop);
-}}
+}
+}
+
+steps to execute
+>gedit Leaky_bucket.c
+#type and save the code
+>gcc Leaky_bucket.c
+>./a.out
