@@ -106,4 +106,4 @@ printf("No. of packets dropped: %d \n",count);
 
 Execution:
 ns n3.tcl
-awk -f n3.awk 4.tr
+awk -f n4.awk n4.tr
