@@ -63,3 +63,9 @@ int main()
     rsa(msg);
     return 0;
 }
+
+steps to execute
+>gedit rsa.c
+#type and save the code
+>gcc rsa.c
+>./a.out
