@@ -87,3 +87,7 @@ count=0;
 }
 END {
 printf("No of packets dropped : %d\n",count); }
+
+Execution:
+ns n2.tcl
+awk -f n2.awk n2.tr
